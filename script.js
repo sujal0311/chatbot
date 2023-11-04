@@ -4,7 +4,7 @@ const chatbox = document.querySelector(".chatbox");
 const chatbot = document.querySelector(".chatbot");
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "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";
 const API_URL = "https://api.openai.com/v1/chat/completions";
 
 const createChatLi = (message, className) => {
